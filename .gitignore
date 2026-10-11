@@ -1,0 +1,21 @@
+# Dataset (Kaggle CLDC) — download separately, see README
+data/
+# Generated outputs (results, checkpoints, feature cache)
+results*/
+checkpoints*/
+features/
+*.pt
+*.pth
+*.joblib
+# Paper sources and PDF are kept locally, not published (figures are kept)
+paper/*.pdf
+paper/*.tex
+paper/*.bib
+paper/tables/
+# Course handout (instructor material, not part of this work)
+Project_Plan.pdf
+# System / Python artefacts
+.DS_Store
+__pycache__/
+**/.ipynb_checkpoints/
+PUSH_KOMUTLARI.sh

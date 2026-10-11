@@ -1,0 +1,14 @@
+# Python 3.10 was used for the original runs. A CUDA GPU is strongly recommended
+# (ViT-B/16 at 384x384 with 3-fold CV and 200-epoch budget).
+torch
+torchvision
+optuna
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+pillow
+tqdm
+joblib
+opencv-python   # only for the clahe_enhanced augmentation policy
