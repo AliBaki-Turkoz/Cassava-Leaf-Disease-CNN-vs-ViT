@@ -102,3 +102,6 @@ Outputs (CSV logs, confusion matrices, curves, reports) are written to `data/Res
 
 ## Academic integrity
 This repository documents coursework for portfolio purposes. It is not intended as a solution to copy for the same course.
+
+## License
+The code in this repository is released under the [MIT License](LICENSE) (copyright the project team). Datasets, pretrained weights and third-party material keep their own licences and terms of use; they are not covered by this licence.
