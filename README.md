@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Course** | CS523 – Computer Vision, Özyeğin University (M.Sc. Computer Engineering), Spring 2026 · Instructor: Prof. Dr. Çiğdem Eroğlu Erdem |
-| **Type** | Team project · repository maintained by Ali Baki Türköz |
+| **Type** | Team project (see [Team & contributions](#team--contributions)) · repository maintained by Ali Baki Türköz |
 | **Deliverable** | IEEE-style paper (not included in this repository) + this source code |
 | **Best result** | ViT-B/16 + `heavy_combo` augmentation: **macro-F1 0.7921 ± 0.0068**, **accuracy 0.8855 ± 0.0040** (3-fold stratified CV) |
 
@@ -99,6 +99,16 @@ Outputs (CSV logs, confusion matrices, curves, reports) are written to `data/Res
 - **Trial count.** The Optuna trials reported in the paper were collected over several runs; `OPTUNA_N_TRIALS` is set per run.
 - **Comments are in Turkish.**
 - **No trained weights are included.**
+
+## Team & contributions
+| Member | Contribution |
+|---|---|
+| Ali Baki Türköz | Equal contribution |
+| Emre Öztürk | Equal contribution |
+
+Both are authors of the course paper.
+
+Source: author list of the course paper (LaTeX source).
 
 ## Academic integrity
 This repository documents coursework for portfolio purposes. It is not intended as a solution to copy for the same course.
